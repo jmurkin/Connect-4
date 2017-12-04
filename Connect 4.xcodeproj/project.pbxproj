@@ -14,6 +14,9 @@
 		04769B671FD04CDC0001D4A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04769B651FD04CDC0001D4A7 /* LaunchScreen.storyboard */; };
 		04769B721FD04CDD0001D4A7 /* Connect_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04769B711FD04CDD0001D4A7 /* Connect_4Tests.swift */; };
 		04769B7D1FD04CDD0001D4A7 /* Connect_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04769B7C1FD04CDD0001D4A7 /* Connect_4UITests.swift */; };
+		04769B8D1FD0556F0001D4A7 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 04769B8A1FD0556F0001D4A7 /* grid.png */; };
+		04769B8E1FD0556F0001D4A7 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 04769B8B1FD0556F0001D4A7 /* red.png */; };
+		04769B8F1FD0556F0001D4A7 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 04769B8C1FD0556F0001D4A7 /* yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		04769B781FD04CDD0001D4A7 /* Connect 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connect 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04769B7C1FD04CDD0001D4A7 /* Connect_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect_4UITests.swift; sourceTree = "<group>"; };
 		04769B7E1FD04CDD0001D4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04769B8A1FD0556F0001D4A7 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = SOURCE_ROOT; };
+		04769B8B1FD0556F0001D4A7 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = SOURCE_ROOT; };
+		04769B8C1FD0556F0001D4A7 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				04769B631FD04CDC0001D4A7 /* Assets.xcassets */,
 				04769B651FD04CDC0001D4A7 /* LaunchScreen.storyboard */,
 				04769B681FD04CDC0001D4A7 /* Info.plist */,
+				04769B8A1FD0556F0001D4A7 /* grid.png */,
+				04769B8B1FD0556F0001D4A7 /* red.png */,
+				04769B8C1FD0556F0001D4A7 /* yellow.png */,
 			);
 			path = "Connect 4";
 			sourceTree = "<group>";
@@ -233,7 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04769B671FD04CDC0001D4A7 /* LaunchScreen.storyboard in Resources */,
+				04769B8F1FD0556F0001D4A7 /* yellow.png in Resources */,
+				04769B8D1FD0556F0001D4A7 /* grid.png in Resources */,
 				04769B641FD04CDC0001D4A7 /* Assets.xcassets in Resources */,
+				04769B8E1FD0556F0001D4A7 /* red.png in Resources */,
 				04769B621FD04CDC0001D4A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
